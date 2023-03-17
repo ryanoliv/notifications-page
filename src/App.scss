@@ -1,0 +1,82 @@
+/* -------------------- */
+/*        RESET         */
+/* -------------------- */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------------- */
+/*     VARIABLES        */
+/* -------------------- */
+:root {
+  --clr-primary-red: hsl(1, 90%, 64%);
+  --clr-primary-blue: hsl(219, 85%, 26%);
+
+  --clr-neutral-white: hsl(0, 0%, 100%);
+  --clr-neutral-very-light-gray: hsl(210, 60%, 98%);
+  --clr-neutral-light-gray-1: hsl(211, 68%, 94%);
+  --clr-neutral-light-gray-2: hsl(205, 33%, 90%);
+  --clr-neutral-gray-blue: hsl(219, 14%, 63%);
+  --clr-neutral-dark-gray-blue: hsl(219, 12%, 42%);
+  --clr-neutral-very-dark-blue: hsl(224, 21%, 14%);
+
+  --font-weight-500: 500;
+  --font-weight-800: 800;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: var(--clr-neutral-very-light-gray);
+
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
